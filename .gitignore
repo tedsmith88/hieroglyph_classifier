@@ -1,0 +1,18 @@
+# environments and caches
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+.idea/
+
+# generated outputs (rebuild with train.py or the notebook)
+runs/
+weights/*.pt
+
+# the dataset is a separate git repo (Hugging Face); clone it here, never commit it
+Egyptian_hieroglyphs/
+
+# old pre-refactor lab notebook (superseded by Notebook.ipynb)
+Notebook.pre-refactor.ipynb
